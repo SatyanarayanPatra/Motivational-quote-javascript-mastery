@@ -25,7 +25,9 @@ function App() {
 					<h2 className='heading'>
 						{advise ? advise.data.slip.advice : ''}
 					</h2>
-					<button onClick={fetchAdvice}>New One Please</button>
+					<button onClick={fetchAdvice} className='button'>
+						<span>Give me a new one</span>
+					</button>
 				</div>
 			</div>
 		</>
